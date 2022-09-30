@@ -3,7 +3,7 @@ name: ncov_submit
 on:
   push :
   schedule :
-    - cron : '00 16 * * *'
+    - cron : '30 21 * * *'
 
 jobs:
   build:
